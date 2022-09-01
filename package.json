@@ -1,0 +1,18 @@
+{
+  "name": "keda-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "tambah": "qunit test/add.js",
+    "kurang": "qunit test/minus.js"
+  },
+  "author": "zdienos",  
+  "bugs": {
+    "url": "https://github.com/zdienos/keda-test/issues"
+  },
+  "homepage": "https://github.com/zdienos/keda-test#readme",
+  "devDependencies": {
+    "qunit": "^2.19.1"
+  }
+}
