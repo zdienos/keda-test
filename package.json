@@ -2,10 +2,12 @@
   "name": "keda-test",
   "version": "1.0.0",
   "description": "",
-  "main": "add.js",
+  "main": "index.js",
   "scripts": {
-    "tambah": "qunit test/add.js",
-    "kurang": "qunit test/minus.js"
+    "start" : "node index",
+    "fishbash": "qunit test/fishbash.js",
+    "urut": "qunit test/urut.js",
+    "terbalik": "qunit test/terbalik.js"
   },
   "author": "zdienos",  
   "bugs": {
